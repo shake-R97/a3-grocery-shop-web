@@ -1,11 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NATURES PLATTER</title>
+    <!-- Google fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind Css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+   <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        bg1: '#FFFFFF',
+                        bg2: '#EFEBE3',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- font awesome cdn -->
+
+    <script src="https://kit.fontawesome.com/05dfd0c4d9.js" crossorigin="anonymous">
+
+    </script>
+
+    <style>
+        .sora-font {
+            font-family: "Sora", sans-serif;
+        }
+    </style>
+
 </head>
-<body>
-    
+
+<body class="sora-font">
+   <header class=" bg-linear-to-b from-bg1 to-bg2 ">
+    <!-- nav bar -->
+     <nav class="">
+        <div class="navbar  border border-green-600 lg:border-none lg:w-[75%] lg:mx-auto  ">
+            <div class="navbar-start">
+              <a class=""><img src="./c2-assets/logo-header.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Product</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <!-- font awesome -->
+                <i class="hidden mr-10 lg:inline-block fa-solid fa-magnifying-glass"></i>
+
+                <i class="ml-2 mr-9 hidden lg:inline-block fa-solid fa-cart-plus">
+                </i>
+              <a class="btn bg-transparent border border-green-500 pt-2 hidden ml-12 mr-7 lg:inline-block">Login</a>
+              <a class="btn bg-green-600 text-white pt-2 px-4 hidden ml-1 mr-9 lg:inline-block">Register</a>
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost  lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                  <li><a>Product</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+     </nav>
+     <!-- banner -->
+     <section class="mt-16">
+        <div class=" animate-pulse">
+          <h1 class="text-6xl text-center font-semibold">Freshness <span class="text-green-600">You Can</span><br><span class="text-green-600">Count </span>On, Prices You'll Love!</h1>
+          <p class="text-gray-400 text-center text-[20px]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+        </div>
+       <div class="flex justify-center mt-10  ">
+        <img src="./c2-assets/hero-vegetables.png" alt="">
+       </div>
+     </section>
+   </header>
+
+   <main>
+    <!-- services section -->
+     <section></section>
+
+     <!-- popular product -->
+      <section></section>
+
+      <!-- festival section -->
+       <section></section>
+
+       <!-- Arrival & Offers  -->
+       <section></section>
+
+       <!-- Get Grocery News! -->
+        <section></section>
+   </main>
+   <footer>
+    <!-- footer section -->
+     <section></section>
+   </footer>
 </body>
+
 </html>
